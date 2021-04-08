@@ -47,9 +47,11 @@
             - Workflow: 1
     # TODO: Re-enable voting when we're confident
     success:
+      mysql:
       gerrit: {}
         # Note that gerrit keywords are case-sensitive.
         # Verified: 1
     failure:
+      mysql:
       gerrit: {}
         # Verified: -1
